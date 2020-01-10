@@ -1,10 +1,81 @@
-.bgimg{
-    background-image:url(./images/about/about_us.png);
-    background-size:cover;
-    /* background-attachment: fixed;  */
-    width:100%;
-    height:800px;
-}
-#port ul li a{
+*{  
+    font-family: 'Josefin Sans', sans-serif;
+    margin:0;
+    padding:0;
+  }
+  
+/* =======menu======== */
+menu ul li a{
+    border-bottom: 4px solid transparent;
+    transition: 0.6s ease;
+  }
+  menu ul li a:hover{
+    border-bottom: 4px solid orange;
+  }
+  nav{
+    background-color: wheat;
+  }
+
+  /* ============ menu end====== */
+
+  /* ==========portfolio====== */
+
+  #port ul li a{
     color:#fff;
+    transition: 0.6s ease;
+  }
+
+  #port ul li a:hover{
+      color:#ffcc00;
+      border-bottom: 2px solid #ffcc00;
+  }
+
+
+
+/* =======portfolio end======= */
+
+
+
+/* ========about========= */
+
+
+
+
+.im{
+    background-image: url(./images/about/about_us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+/*========= about end==== */
+
+
+
+
+/* ===========card======== */
+
+.card{
+    transition: 0.6s ease;
+}
+
+.card_1:hover{
+    transform:scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    background-color: #ffcc00;
+}
+
+.card_2:hover{
+    transform:scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    background-color: #ffcc00;
+}
+
+.card_3:hover{
+    transform:scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    background-color: #ffcc00;
+}
+
+
+/* ========card end========== */
