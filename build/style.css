@@ -27,12 +27,20 @@ menu ul li a{
 
   #port ul li a:hover{
       color:#ffcc00;
-      border-bottom: 2px solid #ffcc00;
+      border-bottom: 2px solid #ffcc00; 
   }
 
 
 
 /* =======portfolio end======= */
+
+/* =======banner======== */
+
+#banner{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 
@@ -79,3 +87,7 @@ menu ul li a{
 
 
 /* ========card end========== */
+
+#people{
+  background:rgba(240,240,240);
+}
